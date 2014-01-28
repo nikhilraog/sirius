@@ -1,0 +1,16 @@
+.text-center {
+    text-align: center;
+}
+
+header .list {
+    top: -10px;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+head h1 a,head h1 a:hover  {
+    font-size: 37px !important;
+}

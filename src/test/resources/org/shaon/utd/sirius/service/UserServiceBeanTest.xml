@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- careful about generated id, if you have some test regarding -->
+<dataset>
+
+    <utd_user id="1" full_name="First user" username="fuser" salt="abcd" password="i2uouoadf" active="1" version="1"/>
+    <utd_user id="2" full_name="Second user" username="suser" salt="abcd" password="i2uouoadf" active="1" version="0"/>
+    <utd_user full_name="Third user" username="tuser" salt="abcd" password="i2uouoadf" active="1" version="0"/>
+
+    <utd_user_role id="1" role_name="ADMIN" utd_user="1"/>
+    <utd_user_role id="2" role_name="INSTRUCTOR" utd_user="1"/>
+    <utd_user_role id="3" role_name="INSTRUCTOR" utd_user="2"/>
+
+</dataset>
